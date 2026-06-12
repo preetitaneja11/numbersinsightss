@@ -306,7 +306,7 @@ footer{background:var(--primary-dark);border-top:1px solid var(--border);padding
     <div class="logo" onclick="showPage('home')">
       <div class="logo-symbol">नV</div>
       <div>
-        <div class="logo-text">NumeroVeda</div>
+        <div class="logo-text">NumbersInsightss</div>
         <span class="logo-sub">Sacred Science of Numbers</span>
       </div>
     </div>
@@ -467,7 +467,7 @@ footer{background:var(--primary-dark);border-top:1px solid var(--border);padding
       <div class="footer-brand">
         <div class="logo" onclick="showPage('home')" style="cursor:pointer">
           <div class="logo-symbol">नV</div>
-          <div><div class="logo-text">NumeroVeda</div></div>
+          <div><div class="logo-text">NumbersInsightss</div></div>
         </div>
         <p>Sacred numerological wisdom for modern life. Certified consultations in numerology, Vaastu, and Vedic remedies.</p>
       </div>
@@ -487,12 +487,12 @@ footer{background:var(--primary-dark);border-top:1px solid var(--border);padding
       <div class="footer-col">
         <h4>Connect</h4>
         <a>📱 +91 7838395556</a>
-        <a>✉️ consult@numeroveda.com</a>
+        <a>✉️ consult@NumbersInsightss.com</a>
         <a>Mon–Sat: 10 AM – 7 PM</a>
       </div>
     </div>
     <div class="footer-bottom">
-      <p id="footerCopy">© 2025 NumeroVeda. All rights reserved.</p>
+      <p id="footerCopy">© 2025 NumbersInsightss. All rights reserved.</p>
       <p>Privacy Policy &nbsp;•&nbsp; Terms of Service</p>
     </div>
   </div>
@@ -541,7 +541,7 @@ footer{background:var(--primary-dark);border-top:1px solid var(--border);padding
     <div class="container">
       <div class="admin-header">
         <span class="admin-badge">ADMIN</span>
-        <div><div style="font-size:20px;font-weight:700">NumeroVeda Admin Panel</div><div style="font-size:13px;color:var(--text-secondary)">Full system access</div></div>
+        <div><div style="font-size:20px;font-weight:700">NumbersInsightss Admin Panel</div><div style="font-size:13px;color:var(--text-secondary)">Full system access</div></div>
         <div style="margin-left:auto"><button class="btn-outline" onclick="logout()" style="padding:8px 18px;font-size:14px">Logout</button></div>
       </div>
       <div class="admin-stats-grid">
@@ -633,7 +633,7 @@ footer{background:var(--primary-dark);border-top:1px solid var(--border);padding
   <!-- Step 3 Success -->
   <div id="rStep3" class="hidden" style="text-align:center">
     <div style="font-size:60px;margin-bottom:14px">🎉</div>
-    <h2>Welcome to NumeroVeda!</h2>
+    <h2>Welcome to NumbersInsightss!</h2>
     <p class="modal-sub">Your account is created successfully</p>
     <div style="background:rgba(46,204,113,.1);border:1px solid rgba(46,204,113,.3);border-radius:10px;padding:16px;margin:16px 0;text-align:left">
       <div style="font-size:13px;color:var(--text-secondary);margin-bottom:6px">Your saved credentials:</div>
@@ -650,7 +650,7 @@ footer{background:var(--primary-dark);border-top:1px solid var(--border);padding
 <div class="modal">
   <button class="modal-close" onclick="closeModal('loginModal')">✕</button>
   <h2>Welcome Back</h2>
-  <p class="modal-sub">Sign in to your NumeroVeda account</p>
+  <p class="modal-sub">Sign in to your NumbersInsightss account</p>
   <div id="lErr" class="form-error-box hidden"></div>
   <div class="form-group"><label>Username</label><input type="text" id="lUser" placeholder="Your username" onkeypress="if(event.key==='Enter')doLogin()"></div>
   <div class="form-group">
@@ -709,7 +709,7 @@ footer{background:var(--primary-dark);border-top:1px solid var(--border);padding
 
 <!-- PWA INSTALL -->
 <div id="installBanner" class="hidden">
-  <div><div class="ib-title">Install NumeroVeda App</div><div class="ib-sub">Add to home screen for quick access</div></div>
+  <div><div class="ib-title">Install NumbersInsightss App</div><div class="ib-sub">Add to home screen for quick access</div></div>
   <button class="btn-gold" style="padding:7px 14px;font-size:13px;white-space:nowrap" onclick="installPWA()">Install</button>
   <button onclick="document.getElementById('installBanner').classList.add('hidden')" style="background:none;border:none;color:var(--text-muted);cursor:pointer;font-size:18px;padding:0">✕</button>
 </div>
@@ -737,7 +737,7 @@ const OFFERS = [
 ];
 
 // ─── ADMIN CREDENTIALS (Change before going live!) ───────────
-const ADMIN = { u:'numeroveda_admin', p:'NV@Admin#2025' };
+const ADMIN = { u:'NumbersInsightss_admin', p:'NV@Admin#2025' };
 
 // ─── RAZORPAY KEY (Replace with your key) ────────────────────
 const RAZORPAY_KEY = 'YOUR_RAZORPAY_KEY_ID';
@@ -1114,7 +1114,7 @@ function processPayment() {
     const rzp = new Razorpay({
       key: RAZORPAY_KEY,
       amount: amount*100, currency:'INR',
-      name:'NumeroVeda', description:bookingSvc.title,
+      name:'NumbersInsightss', description:bookingSvc.title,
       handler: r => confirmBooking(amount, r.razorpay_payment_id||'RZP_'+Date.now()),
       prefill:{ name:currentUser.fullName, contact:currentUser.mobile },
       theme:{ color:'#7b3fa8' }
