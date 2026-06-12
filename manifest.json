@@ -1,0 +1,42 @@
+{
+  "name": "NumeroVeda – Sacred Science of Numbers",
+  "short_name": "NumeroVeda",
+  "description": "Expert numerology consultations, name analysis, Vaastu, and remedies by a certified numerologist.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f0617",
+  "theme_color": "#4a1a6b",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "en-IN",
+  "categories": ["lifestyle", "health", "education"],
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect width='192' height='192' rx='40' fill='%234a1a6b'/><text x='96' y='130' font-size='100' text-anchor='middle' fill='%23c9a227' font-family='serif' font-weight='bold'>नV</text></svg>",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><rect width='512' height='512' rx='100' fill='%234a1a6b'/><text x='256' y='340' font-size='260' text-anchor='middle' fill='%23c9a227' font-family='serif' font-weight='bold'>नV</text></svg>",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Book a Service",
+      "short_name": "Book",
+      "description": "Browse and book numerology services",
+      "url": "/#services"
+    },
+    {
+      "name": "My Dashboard",
+      "short_name": "Dashboard",
+      "description": "View your bookings and reports",
+      "url": "/#dashboard"
+    }
+  ]
+}
